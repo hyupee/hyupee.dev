@@ -6,6 +6,10 @@
     "type": "git",
     "url": "https://github.com/hyupee/hyupee.dev.git"
   },
+  "author": {
+    "name": "hyupee",
+    "url": "https://hyupee-dev.vercel.app"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -5,9 +5,7 @@ import { getAllPosts } from '@/lib/notion'
 import BLOG from '@/blog.config'
 
 export async function getStaticProps () {
-  console.log('BLOG', BLOG);
   const posts = await getAllPosts({ includePages: false })
-  console.log('posts', posts);
   const postsToShow = posts.slice(0, BLOG.postsPerPage)
   const totalPosts = posts.length
   const showNext = totalPosts > BLOG.postsPerPage

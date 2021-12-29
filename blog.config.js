@@ -14,12 +14,12 @@ const BLOG = {
   since: 2021, // If leave this empty, current year will be used.
   postsPerPage: 7,
   sortByDate: false,
-  showAbout: false,
+  showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   socialLink: 'https://github.com/hyupee',
   seo: {
-    keywords: ['hyupee', 'javascript', 'typescript', 'react', 'reactjs', '리액트', '자바스크립트'],
+    keywords: ['hyupee', 'javascript', 'typescript', 'frontend', 'front', 'react', 'reactjs', '리액트', '자바스크립트', '협이', '프론트'],
     googleSiteVerification: '', // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
