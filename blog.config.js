@@ -14,7 +14,7 @@ const BLOG = {
   since: 2021, // If leave this empty, current year will be used.
   postsPerPage: 7,
   sortByDate: false,
-  showAbout: true,
+  showAbout: false,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   socialLink: 'https://github.com/hyupee',
