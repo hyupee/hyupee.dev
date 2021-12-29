@@ -1,11 +1,12 @@
 const BLOG = {
-  title: 'CRAIGARY',
-  author: 'Craig Hart',
-  email: 'i@craigary.net',
-  link: 'https://nobelium.vercel.app',
-  description: 'This gonna be an awesome website.',
-  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
-  appearance: 'auto', // ['light', 'dark', 'auto'],
+  title: 'Hyupee',
+  author: 'hyupee',
+  email: '5656sanghup@gmail.com',
+  link: 'https://hyupee-dev.vercel.app',
+  description: '기술로 예술을 하는 사람입니다',
+  lang: 'ko-KR', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  dateLang: 'en-US', // 'en-US' | 'zh-CN' | 'zh-HK' | 'zh-TW' | 'ja-JP'
+  appearance: 'dark', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
@@ -16,10 +17,9 @@ const BLOG = {
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
-  ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/craigaryhart',
+  socialLink: 'https://github.com/hyupee',
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
+    keywords: ['hyupee', 'javascript', 'typescript', 'react', 'reactjs', '리액트', '자바스크립트'],
     googleSiteVerification: '', // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
@@ -37,9 +37,9 @@ const BLOG = {
   },
   comment: {
     // support provider: utterances, cusdis
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'utterances', // leave it empty if you don't need any comment plugin
     utterancesConfig: {
-      repo: '',
+      repo: 'hyupee/hyupee.dev',
     },
     cusdisConfig: {
       appId: '', // data-app-id
