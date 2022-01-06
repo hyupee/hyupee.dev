@@ -35,22 +35,12 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
           property="og:url"
           content={meta.slug ? `${url}/${meta.slug}` : url}
         />
-        <meta
-          property="og:image"
-          content={`${BLOG.ogImageGenerateURL}/${encodeURIComponent(
-            meta.title
-          )}.png?theme=dark&md=1&fontSize=125px&images=https%3A%2F%2Fnobelium.vercel.app%2Flogo-for-dark-bg.svg`}
-        />
+        <meta property="og:image" content={BLOG.ogImageUrl} />
         <meta property="og:type" content={meta.type} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:title" content={meta.title} />
-        <meta
-          name="twitter:image"
-          content={`${BLOG.ogImageGenerateURL}/${encodeURIComponent(
-            meta.title
-          )}.png?theme=dark&md=1&fontSize=125px&images=https%3A%2F%2Fnobelium.vercel.app%2Flogo-for-dark-bg.svg`}
-        />
+        <meta name="twitter:image" content={BLOG.ogImageUrl} />
         {meta.type === 'article' && (
           <>
             <meta

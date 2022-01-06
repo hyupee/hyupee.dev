@@ -42,3 +42,6 @@ yarn-error.log*
 
 # docker
 Dockerfile
+
+# env
+.env
