@@ -3,8 +3,9 @@ const BLOG = {
   author: 'hyupee',
   email: '5656sanghup@gmail.com',
   link: 'https://hyupee-dev.vercel.app',
-  ogImageUrl:
-    'https://og-image-hyupee.vercel.app/**Hyupee**.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-color-logo.svg',
+  ogImageGenerateUrl: 'https://og-image-hyupee.vercel.app',
+  ogImageParam:
+    'theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-color-logo.svg',
   description: '기술로 예술을 하는 사람입니다',
   lang: 'ko-KR', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   dateLang: 'en-US', // 'en-US' | 'zh-CN' | 'zh-HK' | 'zh-TW' | 'ja-JP'
