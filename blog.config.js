@@ -2,7 +2,7 @@ const BLOG = {
   title: 'Hyupee',
   author: 'hyupee',
   email: '5656sanghup@gmail.com',
-  link: 'https://hyupee-dev.vercel.app',
+  link: 'https://hyupee.dev',
   ogImageGenerateUrl: 'https://og-image-hyupee.vercel.app',
   ogImageParam:
     'theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-color-logo.svg',

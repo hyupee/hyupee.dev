@@ -8,7 +8,7 @@
   },
   "author": {
     "name": "hyupee",
-    "url": "https://hyupee-dev.vercel.app"
+    "url": "https://hyupee.dev"
   },
   "scripts": {
     "dev": "next dev",
