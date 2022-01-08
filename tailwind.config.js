@@ -19,7 +19,7 @@ module.exports = {
           DEFAULT: BLOG.lightBackground || '#ffffff'
         },
         night: {
-          DEFAULT: BLOG.darkBackground || '#111827'
+          DEFAULT: BLOG.darkBackground || '#2f3437'
         }
       },
       fontFamily: {
